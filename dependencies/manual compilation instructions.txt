@@ -1,0 +1,19 @@
+Run all the following commands in order, having extracted lablgl-win32 over your OCaml installation directory or otherwise having installed lablgl on your system. Only necessary if "make" is not available.
+
+rm -rf *.cmo *.cmi *.html *.css ocamlboids.exe
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c Event.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c Helpers.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c GLObjectI.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c World.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c GLObject.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c Boid.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c Obstacle.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c Food.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c PuppetBoid.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c Predator.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g -c glUI.ml
+ocamlc -I +lablgl lablgl.cma lablglut.cma -g graphics.cma Event.cmo Helpers.cmo GLObjectI.cmo World.cmo GLObject.cmo Boid.cmo Obstacle.cmo Food.cmo PuppetBoid.cmo Predator.cmo glUI.cmo -o ocamlboids.exe
+
+If you run into any compilation issues (don't worry, you shouldn't encounter any :)), please call or email us. 
+
+Phone Jo Booth at (901)574-2992 or email jo.m.booth@gmail.com for immediate assistance 24/7. 
