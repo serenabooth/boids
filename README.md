@@ -3,9 +3,9 @@ boids
 
 Implementation of the boids flocking algorithm in OCaml. 
 
-*** The Boids *** 
+`*** The Boids *** 
 
-This is an implentation of the "Boids" flocking algorithm, first published by Craig Reynolds in the 1987 ACM SIGGRAPH journal. We used object-oriented Ocaml and a set of openGL bindings to implement our version. 
+This is an implentation of the "Boids" flocking algorithm, first published by Craig Reynolds in the 1987 ACM SIGGRAPH journal. We used object-oriented Ocaml and a set of openGL bindings to implement our version. `
 
 *** Running the Project ***
 
